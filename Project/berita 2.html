@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detail Berita - Kwarran Pule</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .fade-in {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-green-800 text-white sticky top-0 shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Kwarran Pule</h1>
+      <nav class="space-x-4 text-sm font-semibold">
+        <a href="index.html" class="hover:underline">Beranda</a>
+        <a href="kegiatan.html" class="hover:underline">Kegiatan</a>
+        <a href="berita.html" class="underline">Berita</a>
+        <a href="galeri.html" class="hover:underline">Galeri</a>
+        <a href="kontak.html" class="hover:underline">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-green-100 py-16 text-center">
+    <h2 class="text-3xl font-bold text-green-800 fade-in">DKR PULE HADIRI SIDPARCAB TRENGGALEK 2025</h2>
+    <p class="text-gray-600 mt-2 fade-in">Dipublikasikan pada <strong>14 Juli 2025</strong> oleh Admin Kwarran Pule</p>
+  </section>
+
+  <!-- Konten Berita -->
+  <section class="py-16 px-6 max-w-3xl mx-auto fade-in">
+    <img src="sidpar.jpg" alt="Foto Berita" class="rounded-xl shadow-md mb-6 w-full object-cover">
+
+    <div class="prose max-w-none text-justify text-gray-800 prose-h2:text-green-800 prose-p:leading-relaxed prose-img:rounded-xl">
+        <p>
+            Dewan Kerja Ranting (DKR) Pule menghadiri kegiatan <strong>Sidang Paripurna Cabang (Sidparcab)</strong> Tahun 2024 yang diselenggarakan oleh Kwartir Cabang (Kwarcab) Trenggalek. Kegiatan ini menjadi forum penting untuk mengevaluasi program kerja Dewan Kerja Cabang dan menyusun rencana strategis kepramukaan di tingkat cabang.
+        </p>
+
+        <p>
+            Sidparcab ini dihadiri oleh seluruh Dewan Kerja Ranting se-Kabupaten Trenggalek, pengurus Kwarcab, serta para pembina dan tokoh kepramukaan. Delegasi dari DKR Pule aktif berpartisipasi dalam sidang pleno, diskusi kelompok, serta menyampaikan aspirasi dan masukan konstruktif untuk kemajuan kepramukaan di wilayah Pule.
+        </p>
+
+        <h2>Peran DKR Pule dalam Sidparcab</h2>
+        <p>
+            Dalam kegiatan ini, DKR Pule menyampaikan laporan kegiatan selama tahun berjalan serta memberikan usulan program yang berdampak langsung bagi pengembangan potensi Pramuka Penegak dan Pandega. Keterlibatan aktif para anggota DKR menjadi bukti semangat kepemimpinan dan dedikasi mereka terhadap gerakan Pramuka.
+        </p>
+
+        <h2>Makna dan Harapan</h2>
+        <p>
+            Dengan mengikuti Sidparcab, DKR Pule berharap dapat memperkuat jaringan komunikasi antar kwartir ranting, serta menginspirasi program-program inovatif di masa mendatang. Semoga kegiatan ini menjadi momentum pembelajaran organisasi dan penguatan semangat kebersamaan. Dokumentasi kegiatan dapat dilihat pada halaman <a href="galeri.html" class="text-green-700 hover:underline">Galeri</a>.
+        </p>
+
+        <p class="mt-6 italic text-sm text-gray-500">*Untuk informasi lebih lanjut mengenai partisipasi DKR Pule dalam Sidparcab, silakan hubungi kami melalui <a href="kontak.html" class="text-green-700 hover:underline">halaman kontak</a>.</p>
+        </div>
+
+    <!-- Tombol Kembali -->
+    <div class="mt-10 text-center">
+      <a href="berita.html" class="inline-block bg-green-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-800 transition">
+        ← Kembali ke Daftar Berita
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-800 text-white text-center py-6">
+    <p>&copy; 2025 Kwarran Pule - Gerakan Pramuka. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
